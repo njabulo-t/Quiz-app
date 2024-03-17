@@ -14,7 +14,7 @@ export const data = [
         option2: "Conceptualism",
         option3: "Surrrealism",
         option4: "Pop Art",
-        ans: 4,
+      
   
     },
     {
@@ -23,7 +23,7 @@ export const data = [
         option2: "Paris, France",
         option3: "Cape Town, South Africa",
         option4: "Amsterdam. Netherlands",
-        ans: 2,   
+        
     },
     {
         question: "Which French painter is most associated with paintings of water lilies",
@@ -31,7 +31,7 @@ export const data = [
         option2: "Leonardp Da Vinci ",
         option3: "Salvador Dali",
         option4: "Pablo Picasso",
-        ans: 1,
+      
       
     },
     {
@@ -41,6 +41,6 @@ export const data = [
         option3: "Leonardo Da Vinci",
         option4: "Edward Hopper",
         ans: 3,
-        image: "",
+      
     },
 ]
