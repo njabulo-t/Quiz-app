@@ -5,7 +5,7 @@ export const data = [
         option2: "Francisco Goya",
         option3: "Claude Monet",
         option4: "Frida Kahlo",
-        ans: 1,
+    
       
     },
     {
