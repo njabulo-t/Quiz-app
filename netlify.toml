@@ -1,0 +1,24 @@
+[[redirects]]
+  # Redirect from old path to new path
+  from = "/old-page"
+  to = "/new-page"
+  status = 301
+
+[[redirects]]
+  # Redirect from old domain to new domain
+  from = "https://old-domain.com/*"
+  to = "https://new-domain.com/:splat"
+  status = 301git 
+
+[[redirects]]
+  # Redirect all paths to the index.html file (for client-side routing)
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[[headers]]
+  # Add custom headers
+  for = "/*"
+    [headers.values]
+      X-Frame-Options = "DENY"
+      X-XSS-Protection = "1; mode=block"
