@@ -8,7 +8,7 @@
   # Redirect from old domain to new domain
   from = "https://old-domain.com/*"
   to = "https://new-domain.com/:splat"
-  status = 301git 
+  status = 301
 
 [[redirects]]
   # Redirect all paths to the index.html file (for client-side routing)
