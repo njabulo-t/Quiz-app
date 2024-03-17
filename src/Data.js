@@ -6,7 +6,7 @@ export const data = [
         option3: "Claude Monet",
         option4: "Frida Kahlo",
         ans: 1,
-        image: "https://source.unsplash.com/",
+      
     },
     {
         question: "What art movement is associated with Andy Warhol?",
@@ -15,7 +15,7 @@ export const data = [
         option3: "Surrrealism",
         option4: "Pop Art",
         ans: 4,
-        image: "",
+  
     },
     {
         question: "Where is The Louvre Museum located",
@@ -24,7 +24,6 @@ export const data = [
         option3: "Cape Town, South Africa",
         option4: "Amsterdam. Netherlands",
         ans: 2,   
-        image: "https://source.unsplash.com/-F-C5EeYa-s",
     },
     {
         question: "Which French painter is most associated with paintings of water lilies",
@@ -33,7 +32,7 @@ export const data = [
         option3: "Salvador Dali",
         option4: "Pablo Picasso",
         ans: 1,
-        image: "",
+      
     },
     {
         question: "Who painted the 'Mona Lisa?'",
