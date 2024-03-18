@@ -1,6 +1,6 @@
 export const data = [
     {
-        question: "Who made the famous painting 'Starry Night'",
+        question: "Who made the famous painting 'Starry Night'?",
         option1: "Vincent Van Gogh",
         option2: "Francisco Goya",
         option3: "Claude Monet",
@@ -20,7 +20,7 @@ export const data = [
   
     },
     {
-        question: "Where is The Louvre Museum located",
+        question: "Where is The Louvre Museum located?",
         option1: "Cairo,Egypts",
         option2: "Paris, France",
         option3: "Cape Town, South Africa",
@@ -29,7 +29,7 @@ export const data = [
         
     },
     {
-        question: "Which French painter is most associated with paintings of water lilies",
+        question: "Which French painter is most associated with paintings of water lilies?",
         option1: "Claude Monet",
         option2: "Leonardo Da Vinci ",
         option3: "Salvador Dali",
