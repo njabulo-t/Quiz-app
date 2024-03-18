@@ -19,7 +19,7 @@ export const dataMusic = [
     },
     {
         question: "How does sound travel through air?",
-        option1: "Vibartions",
+        option1: "Vibrations",
         option2: "Echo",
         option3: "Movement",
         option4: "Sound waves",
