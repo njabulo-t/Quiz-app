@@ -26,10 +26,10 @@ const navigateToQuizHistory = () => {
         <div>
         <Navbar  collapseOnSelect expand="lg" sticky="top" bg="light" data-bs-theme="light">
         <Container fluid>
-          <Navbar.Brand href="#home">QuizZical</Navbar.Brand>
+          <Navbar.Brand href="#home" className='ml-4'>QuizZical</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" className="border-0"/>
-          <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="me-auto">
+          <Navbar.Collapse id="responsive-navbar-nav" >
+          <Nav className="me-auto" >
             <Nav.Link href='/'>Home</Nav.Link>
             <NavDropdown title="Topics" id="collapsible-nav-dropdown">
             <NavDropdown.Item onClick={navigateToQuiz}>Art</NavDropdown.Item>
