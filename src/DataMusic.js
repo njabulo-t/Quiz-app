@@ -36,7 +36,7 @@ export const dataMusic = [
         image: "",
     },
     {
-        question: "Which classical composer was deaf?'",
+        question: "Which classical composer was deaf?",
         option1: "Antonio Vivaldi",
         option2: "Ludwig van Beethoven",
         option3: "Igor Stravinsky",
