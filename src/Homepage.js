@@ -2,6 +2,15 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Carousel, CarouselCaption } from 'react-bootstrap';
 import { Button } from 'react-bootstrap';
+import artSculpture from './Images/artSculpture.jpg';
+import moonLanding from './Images/moonLanding.jpg';
+import musicNotes from './Images/musicNotes.jpg';
+
+
+
+
+
+
 
 import './index.css';
 import './Quiz.css'
@@ -27,7 +36,7 @@ const navigateToQuizHistory = () => {
                 <div className='col-lg-8 col-lg-10'>
                 <Carousel slide={false} indicators={true} className='w-100'>
                     <Carousel.Item>
-                            <img className='carouselImage rounded ' src="https://source.unsplash.com/-1L4E_lsIb9Q" alt='art ref pic'></img>
+                            <img className='carouselImage rounded '  src={artSculpture} alt='art sculpture' />
                             <CarouselCaption>
                             <h3>Let's Get Quizzical</h3>
                             <p>Pick a topic</p>
@@ -36,7 +45,7 @@ const navigateToQuizHistory = () => {
                     </Carousel.Item>
 
                     <Carousel.Item>
-                            <img className='carouselImage rounded' src="https://source.unsplash.com/-nLMMpynXO2I" alt='music ref pic'></img>
+                            <img className='carouselImage rounded'   src={musicNotes} alt='music notes pic' />
                             <CarouselCaption>
                             <h3>Let's Get Quizzical</h3>
                             <p>Pick a topic</p>
@@ -45,7 +54,7 @@ const navigateToQuizHistory = () => {
                     </Carousel.Item>
 
                     <Carousel.Item>
-                            <img className='carouselImage rounded' src="https://source.unsplash.com/-isurIBia05w" alt='history ref pic'></img>
+                            <img className='carouselImage rounded' src={moonLanding} alt='moon landing pic' />
                             <CarouselCaption>
                             <h3>Let's Get Quizzical</h3>
                             <p>Pick a topic</p>
